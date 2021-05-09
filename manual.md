@@ -97,6 +97,18 @@ In Step 1, we are defining a 1 axis grid. This will provide a base for the rest 
 
 ![image10](images/image-10.png)
 
+- Now that we have created our GRID iteration, we pull it from our variables at the bottom and add it to our program next to the MOVE command in our loop.
+
+![image11](images/image-11.png)
+
+Everything is now setup. The program will then alert you to move to the start pose if you haven't already done so, like so:
+
+![image12](images/image-12.png)
+
+Your robot should now successfully move along a single line axis.
+
+
+
 
 
 
