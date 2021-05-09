@@ -31,13 +31,13 @@ The variables are placed at the bottom of the screen, and you can drag them at a
 
 ### How to Use the Grid Pattern Structure
 
-#### Definitions
+### Definitions
 
 **Pattern** : 
 
 **Pose** :
 
-#### Summary
+### Summary
 
 In the following few sections, we will identify how to map out the following points:
 
