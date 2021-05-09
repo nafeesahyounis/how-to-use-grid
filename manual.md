@@ -49,6 +49,25 @@ We can then build on this structure and create a 4x6 movement for the robot.
 
 Finally, we can add pickup moves to the robot relative to the recent target pose defined in the first two images.
 
+### Step 1
+
+**Single line grid pattern structure**
+
+In Step 1, we are defining a 1 axis grid. This will provide a base for the rest of our grid pattern structure.
+
+![image1](images/image-1.png)
+
+- Firstly, we place the MOVE command into the main program tree. 
+
+![image2](images/image-2.png)
+
+- Then, we define our initial target pose as a new variable. We are naming this 'grid_base' as it will be the base and starting point for the rest of our robot's interaction. 
+
+
+
+
+
+
 
 
 
