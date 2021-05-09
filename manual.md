@@ -67,6 +67,11 @@ In Step 1, we are defining a 1 axis grid. This will provide a base for the rest 
 
 ![image3](images/image-3.png)
 
+- In this particular example, we want our robot to repeat the movement we have created unless otherwise specified.
+
+- To achieve this, we have used our pre-existing loop command. On the right side of the screen, we have defined this loop as 'endless'.
+
+![image4](images/image-4.png)
 
 
 
