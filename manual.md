@@ -18,4 +18,6 @@ This tutorial comprises of the following three sections:
 
 ### What is the Grid Pattern Structure?
 
+![interface](images/interface-diagram.png)
+
 
