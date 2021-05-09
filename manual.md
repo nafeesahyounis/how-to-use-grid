@@ -18,6 +18,17 @@ This tutorial comprises of the following three sections:
 
 ### What is the Grid Pattern Structure?
 
+
+### How to Use the Interface
+
 ![interface](images/interface-diagram.png)
+
+As you can see, the main screen comprises of two main sections. The section on the left is where you place all your commands and run the program.
+
+The section on the right is where you provide more detail for each command, parameter and variable that you create. Examples of details include the the type of axis being used (x, y or z), the position of the axis, its orientation and the number of points.
+
+The variables are placed at the bottom of the screen, and you can drag them at any point into the main program. There is also a list of existing commands as identified in the diagram that are custom-built into the program and can be modified in the section on the right.
+
+
 
 
