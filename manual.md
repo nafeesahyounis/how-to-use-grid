@@ -29,6 +29,29 @@ The section on the right is where you provide more detail for each command, para
 
 The variables are placed at the bottom of the screen, and you can drag them at any point into the main program. There is also a list of existing commands as identified in the diagram that are custom-built into the program and can be modified in the section on the right.
 
+### How to Use the Grid Pattern Structure
+
+#### Definitions
+
+**Pattern** : 
+
+**Pose** :
+
+#### Summary
+
+In the following few sections, we will identify how to map out the following points:
+
+![robotmoves](images/robot-moves.png)
+
+Firstly, we will identify how to create a single line grid pattern structure.
+
+We can then build on this structure and create a 4x6 movement for the robot.
+
+Finally, we can add pickup moves to the robot relative to the recent target pose defined in the first two images.
+
+
+
+
 
 
 
