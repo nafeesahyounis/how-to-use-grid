@@ -73,6 +73,39 @@ In Step 1, we are defining a 1 axis grid. This will provide a base for the rest 
 
 ![image4](images/image-4.png)
 
+- Now that the base for our movement has been set-up, we can start to create the Pattern for how we want our robot to move. To do this we add another MOVE into our loop like so:
+
+![image5](images/image-5.png)
+
+- Then, we define our Pattern, making sure to change 'Pose' into 'Pattern' on our left. We are naming this Pattern 'GRID'.
+
+![image6](images/image-6.png)
+
+- It is necessary then to add our existing 'grid_base' to the initial pose section for our GRID variable, as this will create a starting point for our single line axis.
+
+![image7](images/image-7.png)
+
+- Now that our pattern has been created, we need to move the position of the robot on the grid's edge.
+
+![image8](images/image-8.png)
+
+- Then we set our first axis point under axis 1 on the right hand side of the page:
+
+![image9](images/image-9.png)
+
+- And define how many points are on the axis under Steps on Axis 1 . In this example, we are creating 4.
+
+![image10](images/image-10.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
