@@ -55,13 +55,20 @@ Finally, we can add pickup moves to the robot relative to the recent target pose
 
 In Step 1, we are defining a 1 axis grid. This will provide a base for the rest of our grid pattern structure.
 
+- Firstly, we place the MOVE command into the main program tree. 
+
 ![image1](images/image-1.png)
 
-- Firstly, we place the MOVE command into the main program tree. 
+- Then, we define our initial target pose as a new variable. We are naming this 'grid_base' as it will be the base and starting point for the rest of our robot's interaction. 
 
 ![image2](images/image-2.png)
 
-- Then, we define our initial target pose as a new variable. We are naming this 'grid_base' as it will be the base and starting point for the rest of our robot's interaction. 
+- As you can see in the image below, the target pose has now been configured to 'grid_base' and we have added it to the main program tree.
+
+![image3](images/image-3.png)
+
+
+
 
 
 
