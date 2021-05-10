@@ -12,8 +12,8 @@ This tutorial comprises of the following three sections:
 3. [How to Use The Grid Pattern Structure](#how-to-use-the-grid-pattern-structure)
     - [Definitions](#definitions)
     - [Summary](#summary)
-    - [Step 1: Single line grid pattern](#step-1:-single-line-grid-pattern)
-    - [Step 2: 4x6 Grid pattern](#step-2:-4x6-grid-pattern)
+    - [Single line grid pattern](#single-line-grid-pattern)
+    - [4x6 Grid pattern](#4x6-grid-pattern)
     
 
 ### What is the Grid Pattern Structure?
@@ -49,9 +49,8 @@ We can then build on this structure and create a 4x6 movement for the robot.
 
 Finally, we can add pickup moves to the robot relative to the recent target pose defined in the first two images.
 
-### Step 1
+### Single line grid pattern
 
-**Single line grid pattern structure**
 
 In Step 1, we are defining a 1 axis grid. This will provide a base for the rest of our grid pattern structure.
 
@@ -106,6 +105,24 @@ Everything is now setup. The program will then alert you to move to the start po
 ![image12](images/image-12.png)
 
 Your robot should now successfully move along a single line axis.
+
+### 4x6 Grid Pattern
+
+Now that we have established moving our robot along a single line axis, we can create a 4x6 Grid pattern as illustrated in image number 2. We do this by adding an additional axis.
+
+In order to add another axis, firstly we open the grid_base inside our Pattern variable GRID. 
+
+We then change our Position X in our grid_base in order to move the robot to the second grid edge.
+
+![image13](images/image-13.png)
+
+Then we return to our Pattern Variable, define a new axis and use the previous position for our new axis point. In the same way as in defining the single line pattern, we then add the number of points on the line. In this case we are selecting 6.
+
+![image14](images/image-14.png)
+
+Our second axis is done. Now we can move the robot to the start position and it will successfully create a 4x6 pattern.
+
+
 
 
 
