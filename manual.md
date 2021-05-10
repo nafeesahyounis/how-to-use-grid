@@ -19,6 +19,9 @@ This tutorial comprises of the following three sections:
 
 ### What is the Grid Pattern Structure?
 
+The Grid is a graph-like structure that allows the user to program the movement of the robot along three different axes: x, y and z.
+
+This is ideal for straight-line movements and up and down movements, as well as more complex moves that involve a 3d shape. The Grid takes the type of position, the axes and the number of points. Below is a brief summary on some different moves that can be achieved using the Grid and how to achieve them.
 
 ### How to Use the Interface
 
